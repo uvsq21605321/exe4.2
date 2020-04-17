@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uvsq.m1.gl.MoteurRPNTest" time="0.004" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uvsq.m1.gl.MoteurRPNTest" time="0.015" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\java\jdk-14\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire2432075150360026840\surefirebooter5270119205907878786.jar C:\Users\Administrateur\AppData\Local\Temp\surefire2432075150360026840 2020-04-12T21-38-24_840-jvmRun1 surefire12376775996017881008tmp surefire_0422169681047767132tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3035614860527385459\surefirebooter10333178545764329305.jar C:\Users\Administrateur\AppData\Local\Temp\surefire3035614860527385459 2020-04-17T08-38-47_852-jvmRun1 surefire8763208973662953805tmp surefire_04209702737071378675tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\UVSQ_M1\gl\exe4.2\target\test-classes;C:\UVSQ_M1\gl\exe4.2\target\classes;C:\Users\Administrateur\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Administrateur\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire2432075150360026840\surefirebooter5270119205907878786.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3035614860527385459\surefirebooter10333178545764329305.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14+36-1461"/>
@@ -55,8 +55,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testappliquerOperationException" classname="uvsq.m1.gl.MoteurRPNTest" time="0"/>
-  <testcase name="testAppliquerOperation" classname="uvsq.m1.gl.MoteurRPNTest" time="0.001"/>
+  <testcase name="testappliquerOperationException" classname="uvsq.m1.gl.MoteurRPNTest" time="0.008"/>
+  <testcase name="testAppliquerOperation" classname="uvsq.m1.gl.MoteurRPNTest" time="0.002"/>
   <testcase name="testEnregistrerOperandeException" classname="uvsq.m1.gl.MoteurRPNTest" time="0"/>
-  <testcase name="testEnregistrerOperande" classname="uvsq.m1.gl.MoteurRPNTest" time="0.001"/>
+  <testcase name="testEnregistrerOperande" classname="uvsq.m1.gl.MoteurRPNTest" time="0.002"/>
 </testsuite>

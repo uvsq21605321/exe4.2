@@ -3,17 +3,18 @@ package uvsq.m1.gl;
 import java.util.Stack;
 
 public class Interpreteur {
+
 	protected Stack<Double> operandes;
-	protected Stack<Stack<Double>> operandesPrecedent;
+	protected Stack<Stack<Double>> operandesPreced;
 	
 	
 	public Interpreteur() {
 		operandes = new Stack<Double>();
-		operandesPrecedent = new Stack<Stack<Double>>();
+		operandesPreced = new Stack<Stack<Double>>();
 	}
 
 	public void quit() {
-		System.out.println("good bye");
+		System.out.println("Out");
 		System.exit(0);
 		
 	}
@@ -21,17 +22,16 @@ public class Interpreteur {
 	public void undo() {
 		
 
-		if(operandesPrecedent.size()>1) {
-			operandesPrecedent.pop();
-			operandes=operandesPrecedent.peek();
+		if(operandesPreced.size()>1) {
+			operandesPreced.pop();
+			operandes=operandesPreced.peek();
 		}else {
-			operandesPrecedent.clear();
+			operandesPreced.clear();
 			operandes.clear();
 		}
 		
 
 	}
-
 
 
 }
